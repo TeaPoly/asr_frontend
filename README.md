@@ -1,5 +1,5 @@
-# trainable-pcen
-PyTorch implementation of [PCEN](https://arxiv.org/pdf/1607.05666.pdf).
+# ASR Frontend
+PyTorch implementation ASR frontend, like [PCEN](https://arxiv.org/pdf/1607.05666.pdf), [Mel filter bank log energy](https://www.sciencedirect.com/science/article/abs/pii/S0167639311001622?via%3Dihub).
 
 # Usage
 The following is a example for using PCEN:
