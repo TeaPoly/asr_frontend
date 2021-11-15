@@ -9,6 +9,10 @@ import torch
 import torch.nn as nn
 import math
 
+'''
+Some code borrowed from open source code in TORCHAUDIO.COMPLIANCE.KALDI. 
+https://pytorch.org/audio/stable/compliance.kaldi.html#torchaudio.compliance.kaldi.fbank
+'''
 
 def log_compression(inputs: torch.Tensor,
                     log_offset: float = 1.) -> torch.Tensor:
